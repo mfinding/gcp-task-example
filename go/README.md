@@ -15,11 +15,11 @@ actually using Cloud Tasks.
 Use the following commands to run the project:
 
 ```shell
-% git clone github.com/mfinding/gcp-task-example <yourdir>
+% git clone https://github.com/mfinding/gcp-task-example
 
-% cd <yourdir>/go
+% cd gcp-task-example/go
 
-% docker compose build && docker compose up -d
+% docker compose build & docker compose up -d
 
 % curl "http://localhost:8081/?f=/tmp/example.csv"
 ```
